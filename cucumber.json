@@ -1,0 +1,870 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6570902251,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check for Google Analytics code in Page Source",
+        "description": "",
+        "id": "google-analytics-code-check;check-for-google-analytics-code-in-page-source",
+        "after": [
+          {
+            "result": {
+              "duration": 1227230525,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3587159090,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open Telugu Videos website",
+            "match": {
+              "location": "HomePageSteps.user_open_Telugu_Videos_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43332468,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user validate page source,Google Analytics code should be present",
+            "match": {
+              "location": "GoogleAnalyticsPageSteps.user_validate_page_source_Google_Analytics_code_should_be_present()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5573413008,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Select Movies Navigation and Check for Google Analytics",
+        "description": "",
+        "id": "google-analytics-code-check;select-movies-navigation-and-check-for-google-analytics",
+        "after": [
+          {
+            "result": {
+              "duration": 1199451405,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1563058650,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user open Telugu Videos website",
+            "match": {
+              "location": "HomePageSteps.user_open_Telugu_Videos_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 238772479,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on Movies Nav Link",
+            "match": {
+              "location": "HomePageSteps.user_click_on_Movies_Nav_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27312977,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validate page source,Google Analytics code should be present",
+            "match": {
+              "location": "GoogleAnalyticsPageSteps.user_validate_page_source_Google_Analytics_code_should_be_present()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5413846752,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Select Music Navigation and Check for Google Analytics",
+        "description": "",
+        "id": "google-analytics-code-check;select-music-navigation-and-check-for-google-analytics",
+        "after": [
+          {
+            "result": {
+              "duration": 1200810062,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2683585656,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user open Telugu Videos website",
+            "match": {
+              "location": "HomePageSteps.user_open_Telugu_Videos_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 212228424,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on Music Nav Link",
+            "match": {
+              "location": "HomePageSteps.user_click_on_Music_NavLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19161037,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user validate page source,Google Analytics code should be present",
+            "match": {
+              "location": "GoogleAnalyticsPageSteps.user_validate_page_source_Google_Analytics_code_should_be_present()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6297343542,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Select Video in Trailers Navigation and Check for Google Analytics code",
+        "description": "",
+        "id": "google-analytics-code-check;select-video-in-trailers-navigation-and-check-for-google-analytics-code",
+        "after": [
+          {
+            "result": {
+              "duration": 1275159847,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1856196643,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user open Telugu Videos website",
+            "match": {
+              "location": "HomePageSteps.user_open_Telugu_Videos_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 567192353,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click on Trailers Nav Link",
+            "match": {
+              "location": "HomePageSteps.user_click_on_Trailers_Nav_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 203612051,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click on Video",
+            "match": {
+              "location": "HomePageSteps.user_click_on_Video()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10458278,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user validate page source,Google Analytics code should be present",
+            "match": {
+              "location": "GoogleAnalyticsPageSteps.user_validate_page_source_Google_Analytics_code_should_be_present()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Analytics code check",
+    "description": "",
+    "id": "google-analytics-code-check",
+    "keyword": "Feature",
+    "uri": "features/GoogleAnalytics.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5222966815,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Select Navigation",
+        "description": "",
+        "id": "navigation-testing-scenarios;select-navigation",
+        "after": [
+          {
+            "result": {
+              "duration": 1234156382,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2679650384,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open Telugu Videos website",
+            "match": {
+              "location": "HomePageSteps.user_open_Telugu_Videos_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173010415,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on Nav Link",
+            "match": {
+              "location": "HomePageSteps.user_click_on_NavLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131265399,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Verify it shows valid videos",
+            "match": {
+              "location": "HeaderNavSteps.user_Verify_it_shows_valid_videos()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5384241977,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Select Navigation in mobile",
+        "description": "",
+        "id": "navigation-testing-scenarios;select-navigation-in-mobile",
+        "after": [
+          {
+            "result": {
+              "duration": 1158255497,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 641135439,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user open Telugu Videos website",
+            "match": {
+              "location": "HomePageSteps.user_open_Telugu_Videos_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 554958883,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on Nav Link in mobile",
+            "match": {
+              "location": "HomePageSteps.user_click_on_NavLink_In_Mobile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170841781,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Verify it shows valid videos",
+            "match": {
+              "location": "HeaderNavSteps.user_Verify_it_shows_valid_videos()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5390955717,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Select Navigation for Music",
+        "description": "",
+        "id": "navigation-testing-scenarios;select-navigation-for-music",
+        "after": [
+          {
+            "result": {
+              "duration": 1215664195,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2831241321,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user open Telugu Videos website",
+            "match": {
+              "location": "HomePageSteps.user_open_Telugu_Videos_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235140414,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on Music Nav Link",
+            "match": {
+              "location": "HomePageSteps.user_click_on_Music_NavLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100108239,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user Verify it shows valid videos",
+            "match": {
+              "location": "HeaderNavSteps.user_Verify_it_shows_valid_videos()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5376120400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Select Navigation for Movies",
+        "description": "",
+        "id": "navigation-testing-scenarios;select-navigation-for-movies",
+        "after": [
+          {
+            "result": {
+              "duration": 1357784735,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4021540503,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user open Telugu Videos website",
+            "match": {
+              "location": "HomePageSteps.user_open_Telugu_Videos_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 351261301,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click on Movies Nav Link",
+            "match": {
+              "location": "HomePageSteps.user_click_on_Movies_Nav_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147548324,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user Verify it shows valid videos",
+            "match": {
+              "location": "HeaderNavSteps.user_Verify_it_shows_valid_videos()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5735960012,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Select Navigation for Trailer",
+        "description": "",
+        "id": "navigation-testing-scenarios;select-navigation-for-trailer",
+        "after": [
+          {
+            "result": {
+              "duration": 1208449245,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2904569867,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user open Telugu Videos website",
+            "match": {
+              "location": "HomePageSteps.user_open_Telugu_Videos_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200838715,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click on Trailers Nav Link",
+            "match": {
+              "location": "HomePageSteps.user_click_on_Trailers_Nav_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100105673,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user Verify it shows valid videos",
+            "match": {
+              "location": "HeaderNavSteps.user_Verify_it_shows_valid_videos()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigation Testing Scenarios",
+    "description": "",
+    "id": "navigation-testing-scenarios",
+    "keyword": "Feature",
+    "uri": "features/Navigation.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5781931534,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Data retrieval from a web service",
+        "description": "",
+        "id": "testing-a-rest-api;data-retrieval-from-a-web-service",
+        "after": [
+          {
+            "result": {
+              "duration": 1197515844,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 546689766,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open videos Json Url in Telugu Videos Website",
+            "match": {
+              "location": "RestTeluguVideosSteps.user_open_videos_Json_Url_in_Telugu_Videos_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49686123,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user verify atleat 50 videos",
+            "match": {
+              "location": "RestTeluguVideosSteps.user_verify_atleat_50_videos()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing a REST API",
+    "description": "",
+    "id": "testing-a-rest-api",
+    "keyword": "Feature",
+    "uri": "features/RestAPI.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5123058718,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Select Video in trailer nav",
+        "description": "",
+        "id": "videos-in-telugu-videos-site;select-video-in-trailer-nav",
+        "after": [
+          {
+            "result": {
+              "duration": 1243788005,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2126473108,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open Telugu Videos website",
+            "match": {
+              "location": "HomePageSteps.user_open_Telugu_Videos_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231176061,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on Trailers Nav Link",
+            "match": {
+              "location": "HomePageSteps.user_click_on_Trailers_Nav_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211548454,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on Video",
+            "match": {
+              "location": "HomePageSteps.user_click_on_Video()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@ClickVideo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5196004514,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Select Video and land on home page",
+        "description": "",
+        "id": "videos-in-telugu-videos-site;select-video-and-land-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1453030121,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3013221351,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user open Telugu Videos website",
+            "match": {
+              "location": "HomePageSteps.user_open_Telugu_Videos_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 217183223,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on Trailers Nav Link",
+            "match": {
+              "location": "HomePageSteps.user_click_on_Trailers_Nav_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4455847505,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on Video, Video Should Play",
+            "match": {
+              "location": "HomePageSteps.user_click_on_Video_Video_Should_Play()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3229476992,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on Overview, Should go for Home Page",
+            "match": {
+              "location": "HomePageSteps.user_click_on_Overview_Should_go_for_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@PlayVideo"
+          }
+        ]
+      }
+    ],
+    "name": "Videos in Telugu Videos Site",
+    "description": "",
+    "id": "videos-in-telugu-videos-site",
+    "keyword": "Feature",
+    "uri": "features/SelectVideo.feature"
+  }
+]
